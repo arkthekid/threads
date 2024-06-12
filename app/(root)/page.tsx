@@ -1,7 +1,10 @@
-export default function Home() {
+// UserButtonComponent.tsx
+import { UserButton } from "@clerk/nextjs";
+
+export default function UserButtonComponent() {
   return (
-    <main>
-      <h1>Threads</h1>
-    </main>
+    <div>
+      <UserButton afterSignOutUrl="/" />
+    </div>
   );
 }
