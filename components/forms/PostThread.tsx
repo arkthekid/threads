@@ -2,8 +2,9 @@
 
 import * as z from "zod";
 import { useForm } from "react-hook-form";
-import { usePathname, useRouter } from "next/navigation";
+import { useOrganization } from "@clerk/nextjs";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { usePathname, useRouter } from "next/navigation";
 
 import {
   Form,
@@ -16,49 +17,42 @@ import {
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
-
 import { ThreadValidation } from "@/lib/validations/thread";
 import { createThread } from "@/lib/actions/thread.actions";
-//import { updateUser } from "@/lib/actions/user.actions";
 
 interface Props {
-  user: {
-    id: string;
-    objectId: string;
-    username: string;
-    name: string;
-    bio: string;
-    image: string;
-  };
-  btnTitle: string;
+  userId: string;
 }
 
-function PostThread({ userId }: { userId: string }){
-    const router = useRouter();
-    const pathname = usePathname();
+function PostThread({ userId }: Props) {
+  const router = useRouter();
+  const pathname = usePathname();
 
-    const form = useForm({
-        resolver: zodResolver(ThreadValidation),
-        defaultValues: {
-            thread: '',
-            accountId: userId,
-        }
+  const { organization } = useOrganization();
+
+  const form = useForm<z.infer<typeof ThreadValidation>>({
+    resolver: zodResolver(ThreadValidation),
+    defaultValues: {
+      thread: "",
+      accountId: userId,
+    },
+  });
+
+  const onSubmit = async (values: z.infer<typeof ThreadValidation>) => {
+    await createThread({
+      text: values.thread,
+      author: userId,
+      communityId: organization ? organization.id : null,
+      path: pathname,
     });
 
-    const onSubmit = async (values: z.infer<typeof ThreadValidation>) => {
-        await createThread({
-            text: values.thread, 
-            author: userId, 
-            communityId: null, 
-            path: pathname
-        });
-        router.push("/")
-    }
+    router.push("/");
+  };
 
-    return (
-        <Form {...form}>
+  return (
+    <Form {...form}>
       <form
-        className='flex flex-col justify-start gap-10'
+        className='mt-10 flex flex-col justify-start gap-10'
         onSubmit={form.handleSubmit(onSubmit)}
       >
         <FormField
@@ -66,27 +60,23 @@ function PostThread({ userId }: { userId: string }){
           name='thread'
           render={({ field }) => (
             <FormItem className='flex w-full flex-col gap-3'>
-              <FormLabel className='mt-10 text-base-semibold text-light-2'>
+              <FormLabel className='text-base-semibold text-light-2'>
                 Content
               </FormLabel>
-              <FormControl className = "no-focus border border-dark-4 bg-dark-3 text-light-1">
-                <Textarea
-                  rows = {15}
-                  className='account-form_input no-focus'
-                  {...field}
-                />
+              <FormControl className='no-focus border border-dark-4 bg-dark-3 text-light-1'>
+                <Textarea rows={15} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
 
-        <Button type = "submit" className = "bg-primary-500">
-            Post Thread
+        <Button type='submit' className='bg-primary-500'>
+          Post Thread
         </Button>
       </form>
-      </Form>
-    )
+    </Form>
+  );
 }
 
 export default PostThread;
