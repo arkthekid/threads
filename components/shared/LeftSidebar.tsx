@@ -13,9 +13,14 @@ const LeftSidebar = () => {
   const { signOut, userId } = useAuth();
 
   const handleSignOut = async () => {
-    await signOut();
-    router.push("/sign-in");
+    try {
+      await signOut();
+      router.push("/sign-in");
+    } catch (error) {
+      console.error("Error signing out:", error);
+    }
   };
+  
 
   return (
     <section className="custom-scrollbar leftsidebar">
