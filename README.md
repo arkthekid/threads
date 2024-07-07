@@ -42,8 +42,8 @@ I was very interested in building a full-stack web application for several reaso
 - [***Shadcn UI***](https://ui.shadcn.com): A UI framework for building visually appealing interfaces.
 - [***TailwindCSS***](https://tailwindcss.com): A utility-first CSS framework for styling.
 - [***Clerk***](https://clerk.com): Authentication service for managing user login and social logins.
-- [***Webhooks***](#): For real-time events listening and notifications.
-- [***Serverless APIs***](#): For building scalable backend services.
+- [***Webhooks***](https://hookdeck.com/webhooks/guides/what-are-webhooks-how-they-work#:~:text=What%20is%20a%20webhook%3F,fired%20in%20the%20source%20system.): For real-time events listening and notifications.
+- [***Serverless APIs***](https://www.mongodb.com/cloud/atlas/register): For building scalable backend services.
 - [***React Hook Form***](https://www.react-hook-form.com): For efficient form management.
 - [***Zod***](https://zod.dev): For data validation and integrity.
 - [***TypeScript***](https://www.typescriptlang.org): For type safety and improved developer experience.
