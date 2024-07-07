@@ -2,6 +2,14 @@
 
 This is the official repository for my Full Stack Threads Clone.
 
+## Table of Contents
+
+1. Introduction
+2. Technologies Involved
+3. Features
+4. Quick Start
+
+
 ## Technologies Involved
 - ***Next.js***: A React framework for building fast web applications.
 - ***MongoDB***: A NoSQL database for storing application data.
