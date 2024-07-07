@@ -68,44 +68,45 @@ This is the official repository for my Full Stack Threads Clone.
 
 Follow these steps to set up the project locally on your machine.
 
-### Prerequisites
+1. **Prerequisites**
 
 Make sure you have the following installed on your machine:
 - Git
 - Node.js
 - npm (Node Package Manager)
 
-### Cloning the Repository
+2. **Cloning the Repository**
 
 Clone the repository and navigate to the project directory:
 
-  ```bash
-  git clone https://github.com/arkthekid/threads.git
-  cd threads
+    ```bash
+    git clone https://github.com/arkthekid/threads.git
+    cd threads
 
-### Installation
+3. **Installation**
 
 Install the project dependencies using npm:
 
-  ```bash
-  npm install
-  Set Up Environment Variables
-  Create a new file named .env in the root of your project and add the following content:
+    ```bash
+    npm install
+4. **Set Up Environment Variables**
 
-  ```bash
-  MONGODB_URL=
-  CLERK_SECRET_KEY=
-  UPLOADTHING_SECRET=
-  UPLOADTHING_APP_ID=
-  NEXT_CLERK_WEBHOOK_SECRET=
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+Create a new file named .env in the root of your project and add the following content:
+  
+    ```bash
+    MONGODB_URL=
+    CLERK_SECRET_KEY=
+    UPLOADTHING_SECRET=
+    UPLOADTHING_APP_ID=
+    NEXT_CLERK_WEBHOOK_SECRET=
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 
 Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up for the corresponding services on MongoDB, Clerk, and UploadThing.
 
-### Running the Project
+5. **Running the Project**
 
 Start the development server:
 
-  ```bash
-  npm run dev
-  Open http://localhost:3000 in your browser to view the project.
+    ```bash
+    npm run dev
+    Open http://localhost:3000 in your browser to view the project.
