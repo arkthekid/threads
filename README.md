@@ -2,7 +2,7 @@
 
 This is the official repository for my Full Stack Threads Clone.
 
-## Tech Stack
+## Technologies Involved
 - ***Next.js***: A React framework for building fast web applications.
 - ***MongoDB***: A NoSQL database for storing application data.
 - ***Shadcn UI***: A UI framework for building visually appealing interfaces.
@@ -14,7 +14,7 @@ This is the official repository for my Full Stack Threads Clone.
 - ***Zod***: For data validation and integrity.
 - ***TypeScript***: For type safety and improved developer experience.
 
-## Features
+# Features
 
 ### ***Authentication***: 
 
@@ -112,7 +112,7 @@ This is the official repository for my Full Stack Threads Clone.
 
 - Implementing best practices for code architecture and reusability.
 
-## Quick Start
+# Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
