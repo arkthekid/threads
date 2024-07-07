@@ -16,8 +16,7 @@ This is the official repository for my Full Stack Threads Clone.
 
 ## Features
 
-### Authentication
-Authentication using Clerk for email, password, and social logins (Google and GitHub) with a comprehensive profile management system.
+#### Authentication: using Clerk for email, password, and social logins (Google and GitHub) with a comprehensive profile management system.
 
 ### Visually Appealing Home Page
 A visually appealing home page showcasing the latest threads for an engaging user experience.
@@ -108,6 +107,7 @@ git clone https://github.com/arkthekid/threads.git
 cd threads
 
 
-### Installation
+
+### Prerequisites
 
 Install the project dependencies using npm:
