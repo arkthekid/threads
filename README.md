@@ -4,9 +4,9 @@ This is the official repository for my Full Stack Threads Clone.
 
 ## Table of Contents
 1. [Why I developed Threads clone app](#why-i-developed-threads-clone-app)
-2. [Technologies Involved](#technologies-involved)
-3. [Features](#features)
-4. [Quick Start](#quick-start)
+2. [Features](#features)
+3. [Quick Start](#quick-start)
+4. [Technologies Involved](#technologies-involved)
 
 ## Why I developed Threads clone app
 
@@ -35,19 +35,6 @@ I was very interested in building a full-stack web application for several reaso
 - **Personal Growth**: To challenge myself with a comprehensive project that covers all aspects of full-stack development, enhancing my problem-solving and coding skills.
   
 - **Portfolio Enhancement**: To create a showcase project demonstrating my capabilities as a full-stack developer, adding a significant project to my portfolio.
-
-## Technologies Involved
-- [***Next.js***](https://nextjs.org/docs): A React framework for building fast web applications.
-- [***MongoDB***](https://www.mongodb.com): A NoSQL database for storing application data.
-- [***Shadcn UI***](https://ui.shadcn.com): A UI framework for building visually appealing interfaces.
-- [***TailwindCSS***](https://tailwindcss.com): A utility-first CSS framework for styling.
-- [***Clerk***](https://clerk.com): Authentication service for managing user login and social logins.
-- [***Webhooks***](https://hookdeck.com/webhooks/guides/what-are-webhooks-how-they-work#:~:text=What%20is%20a%20webhook%3F,fired%20in%20the%20source%20system.): For real-time events listening and notifications.
-- [***Serverless APIs***](https://www.mongodb.com/cloud/atlas/register): For building scalable backend services.
-- [***React Hook Form***](https://www.react-hook-form.com): For efficient form management.
-- [***Zod***](https://zod.dev): For data validation and integrity.
-- [***TypeScript***](https://www.typescriptlang.org): For type safety and improved developer experience.
-- [***Vercel***](https://vercel.com): A cloud platform for static sites and serverless functions, providing seamless deployment and performance optimization for Next.js applications.
 
 # Features
 
@@ -192,5 +179,19 @@ Start the development server:
     Open http://localhost:3000 in your browser to view the project.
 
 Now you will have the executable Threads clone app!
+
+## Technologies Involved
+- [***Next.js***](https://nextjs.org/docs): A React framework for building fast web applications.
+- [***MongoDB***](https://www.mongodb.com): A NoSQL database for storing application data.
+- [***Shadcn UI***](https://ui.shadcn.com): A UI framework for building visually appealing interfaces.
+- [***TailwindCSS***](https://tailwindcss.com): A utility-first CSS framework for styling.
+- [***Clerk***](https://clerk.com): Authentication service for managing user login and social logins.
+- [***Webhooks***](https://hookdeck.com/webhooks/guides/what-are-webhooks-how-they-work#:~:text=What%20is%20a%20webhook%3F,fired%20in%20the%20source%20system.): For real-time events listening and notifications.
+- [***Serverless APIs***](https://www.mongodb.com/cloud/atlas/register): For building scalable backend services.
+- [***React Hook Form***](https://www.react-hook-form.com): For efficient form management.
+- [***Zod***](https://zod.dev): For data validation and integrity.
+- [***TypeScript***](https://www.typescriptlang.org): For type safety and improved developer experience.
+- [***Vercel***](https://vercel.com): A cloud platform for static sites and serverless functions, providing seamless deployment and performance optimization for Next.js applications.
+
 
 Here is the [Demonstration Video](https://www.youtube.com/embed/ZcE6nOmNzP8) of the app.
