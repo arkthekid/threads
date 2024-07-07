@@ -79,7 +79,6 @@ Make sure you have the following installed on your machine:
 
 Clone the repository and navigate to the project directory:
 
-    ```bash
     git clone https://github.com/arkthekid/threads.git
     cd threads
 
@@ -87,13 +86,12 @@ Clone the repository and navigate to the project directory:
 
 Install the project dependencies using npm:
 
-    ```bash
     npm install
+    
 4. **Set Up Environment Variables**
 
 Create a new file named .env in the root of your project and add the following content:
   
-    ```bash
     MONGODB_URL=
     CLERK_SECRET_KEY=
     UPLOADTHING_SECRET=
@@ -107,6 +105,5 @@ Replace the placeholder values with your actual credentials. You can obtain thes
 
 Start the development server:
 
-    ```bash
     npm run dev
     Open http://localhost:3000 in your browser to view the project.
