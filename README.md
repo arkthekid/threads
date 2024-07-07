@@ -104,5 +104,5 @@ Make sure you have the following installed on your machine:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/adrianhajdin/threads.git
+git clone https://github.com/arkthekid/threads.git
 cd threads
