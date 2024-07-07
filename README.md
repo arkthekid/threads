@@ -3,7 +3,7 @@
 This is the official repository for my Full Stack Threads Clone.
 
 ## Tech Stack
-- **Next.js**: A React framework for building fast web applications.
+- ***Next.js***: A React framework for building fast web applications.
 - **MongoDB**: A NoSQL database for storing application data.
 - **Shadcn UI**: A UI framework for building visually appealing interfaces.
 - **TailwindCSS**: A utility-first CSS framework for styling.
