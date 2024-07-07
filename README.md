@@ -37,17 +37,17 @@ I was very interested in building a full-stack web application for several reaso
 - **Portfolio Enhancement**: To create a showcase project demonstrating my capabilities as a full-stack developer, adding a significant project to my portfolio.
 
 ## Technologies Involved
-- [***Next.js***](#https://nextjs.org/docs): A React framework for building fast web applications.
-- [***MongoDB***](#https://www.mongodb.com): A NoSQL database for storing application data.
-- [***Shadcn UI***](#https://ui.shadcn.com): A UI framework for building visually appealing interfaces.
-- [***TailwindCSS***](#https://tailwindcss.com): A utility-first CSS framework for styling.
-- [***Clerk***](#https://clerk.com): Authentication service for managing user login and social logins.
+- [***Next.js***](https://nextjs.org/docs): A React framework for building fast web applications.
+- [***MongoDB***](https://www.mongodb.com): A NoSQL database for storing application data.
+- [***Shadcn UI***](https://ui.shadcn.com): A UI framework for building visually appealing interfaces.
+- [***TailwindCSS***](https://tailwindcss.com): A utility-first CSS framework for styling.
+- [***Clerk***](https://clerk.com): Authentication service for managing user login and social logins.
 - [***Webhooks***](#): For real-time events listening and notifications.
 - [***Serverless APIs***](#): For building scalable backend services.
-- [***React Hook Form***](#https://www.react-hook-form.com): For efficient form management.
-- [***Zod***](#https://zod.dev): For data validation and integrity.
-- [***TypeScript***](#https://www.typescriptlang.org): For type safety and improved developer experience.
-- [***Vercel***](#https://vercel.com): A cloud platform for static sites and serverless functions, providing seamless deployment and performance optimization for Next.js applications.
+- [***React Hook Form***](https://www.react-hook-form.com): For efficient form management.
+- [***Zod***](https://zod.dev): For data validation and integrity.
+- [***TypeScript***](https://www.typescriptlang.org): For type safety and improved developer experience.
+- [***Vercel***](https://vercel.com): A cloud platform for static sites and serverless functions, providing seamless deployment and performance optimization for Next.js applications.
 
 # Features
 
