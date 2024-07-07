@@ -38,6 +38,8 @@ I was very interested in building a full-stack web application for several reaso
 
 # Features
 
+Here is the [Demonstration Video](https://www.youtube.com/embed/ZcE6nOmNzP8) of the app.
+
 ### ***Authentication***: 
 
 - Using Clerk for email, password, and social logins (Google and GitHub) with a comprehensive profile management system.
@@ -192,6 +194,3 @@ Now you will have the executable Threads clone app!
 - [***Zod***](https://zod.dev): For data validation and integrity.
 - [***TypeScript***](https://www.typescriptlang.org): For type safety and improved developer experience.
 - [***Vercel***](https://vercel.com): A cloud platform for static sites and serverless functions, providing seamless deployment and performance optimization for Next.js applications.
-
-
-Here is the [Demonstration Video](https://www.youtube.com/embed/ZcE6nOmNzP8) of the app.
