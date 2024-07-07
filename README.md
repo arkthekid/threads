@@ -106,3 +106,8 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/arkthekid/threads.git
 cd threads
+
+
+### Installation
+
+Install the project dependencies using npm:
