@@ -3,11 +3,10 @@
 This is the official repository for my Full Stack Threads Clone.
 
 ## Table of Contents
-1. [Why I developed Threads clone app](#why-i-developed-this-threads-clone-app)
-2. [Introduction](#introduction)
-3. [Technologies Involved](#technologies-involved)
-4. [Features](#features)
-5. [Quick Start](#quick-start)
+1. [Why I developed Threads clone app](#why-i-developed-threads-clone-app)
+2. [Technologies Involved](#technologies-involved)
+3. [Features](#features)
+4. [Quick Start](#quick-start)
 
 ## Why I developed Threads clone app
 
