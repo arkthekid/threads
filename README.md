@@ -190,3 +190,7 @@ Start the development server:
 
     npm run dev
     Open http://localhost:3000 in your browser to view the project.
+
+Now you will have the executable Threads clone app!
+
+Here is the [Demonstration Video](https://www.youtube.com/embed/ZcE6nOmNzP8) of the app.
