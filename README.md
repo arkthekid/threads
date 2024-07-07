@@ -16,53 +16,101 @@ This is the official repository for my Full Stack Threads Clone.
 
 ## Features
 
-***Authentication***: Using Clerk for email, password, and social logins (Google and GitHub) with a comprehensive profile management system.
+***Authentication***: 
 
-***Visually Appealing Home Page***: A home page showcasing the latest threads for an engaging user experience.
+Using Clerk for email, password, and social logins (Google and GitHub) with a comprehensive profile management system.
 
-***Create Thread Page*** A dedicated page for users to create threads, fostering community engagement.
+***Visually Appealing Home Page***: 
 
-***Commenting Feature***: A commenting feature to facilitate discussions within threads.
+A home page showcasing the latest threads for an engaging user experience.
 
-***Nested Commenting***: A commenting system with nested threads, providing a structured conversation flow.
+***Create Thread Page***:
 
-***User Search with Pagination***: A user search feature with pagination for easy exploration and discovery of other users.
+A dedicated page for users to create threads, fostering community engagement.
 
-***Activity Page***: Display notifications on the activity page when someone comments on a user's thread, enhancing user engagement.
+***Commenting Feature***: 
 
-***Profile Page***: User profile pages for showcasing information and enabling modification of profile settings.
+A commenting feature to facilitate discussions within threads.
 
-***Create and Invite to Communities***: Allow users to create new communities and invite others using customizable template emails.
+***Nested Commenting***: 
 
-***Community Member Management***: A user-friendly interface to manage community members, allowing role changes and removals.
+A commenting system with nested threads, providing a structured conversation flow.
 
-***Admin-Specific Community Threads***: Enable admins to create threads specifically for their community.
+***User Search with Pagination***: 
 
-***Community Search with Pagination***: A community search feature with pagination for exploring different communities.
+A user search feature with pagination for easy exploration and discovery of other users.
 
-***Community Profiles***: Display community profiles showcasing threads and members for a comprehensive overview.
+***Activity Page***: 
 
-***Figma Design Implementation***: Transform Figma designs into a fully functional application with pixel-perfect and responsive design.
+Display notifications on the activity page when someone comments on a user's thread, enhancing user engagement.
 
-***Blazing-Fast Performance***: Optimal performance and instantaneous page switching for a seamless user experience.
+***Profile Page***: 
 
-***Server Side Rendering***: Utilize Next.js with Server Side Rendering for enhanced performance and SEO benefits.
+User profile pages for showcasing information and enabling modification of profile settings.
 
-***MongoDB with Complex Schemas***: Handle complex schemas and multiple data populations using MongoDB.
+***Create and Invite to Communities***: 
 
-***File Uploads with UploadThing***: File uploads using UploadThing for a seamless media sharing experience.
+Allow users to create new communities and invite others using customizable template emails.
 
-***Real-Time Events Listening***: Real-time events listening with webhooks to keep users updated.
+***Community Member Management***: 
 
-***Middleware, API Actions, and Authorization***: Utilize middleware, API actions, and authorization for robust application security.
+A user-friendly interface to manage community members, allowing role changes and removals.
 
-***Next.js Layout Route Groups***: Next.js layout route groups for efficient routing.
+***Admin-Specific Community Threads***: 
 
-***Data Validation with Zod***: Data integrity with data validation using Zod.
+Enable admins to create threads specifically for their community.
 
-***Form Management with React Hook Form***: Efficient management of forms with React Hook Form for a streamlined user input experience.
+***Community Search with Pagination***: 
 
-***Code Architecture and Reusability***: Implementing best practices for code architecture and reusability.
+A community search feature with pagination for exploring different communities.
+
+***Community Profiles***: 
+
+Display community profiles showcasing threads and members for a comprehensive overview.
+
+***Figma Design Implementation***: 
+
+Transform Figma designs into a fully functional application with pixel-perfect and responsive design.
+
+***Blazing-Fast Performance***: 
+
+Optimal performance and instantaneous page switching for a seamless user experience.
+
+***Server Side Rendering***: 
+
+Utilize Next.js with Server Side Rendering for enhanced performance and SEO benefits.
+
+***MongoDB with Complex Schemas***: 
+
+Handle complex schemas and multiple data populations using MongoDB.
+
+***File Uploads with UploadThing***: 
+
+File uploads using UploadThing for a seamless media-sharing experience.
+
+***Real-Time Events Listening***: 
+
+Real-time events listening with webhooks to keep users updated.
+
+***Middleware, API Actions, and Authorization***: 
+
+Utilize middleware, API actions, and authorization for robust application security.
+
+***Next.js Layout Route Groups***: 
+
+Next.js layout route groups for efficient routing.
+
+***Data Validation with Zod***: 
+
+Data integrity with data validation using Zod.
+
+***Form Management with React Hook Form***: 
+
+Efficient management of forms with React Hook Form for a streamlined user input experience.
+
+***Code Architecture and Reusability***: 
+
+Implementing best practices for code architecture and reusability.
 
 ## Quick Start
 
